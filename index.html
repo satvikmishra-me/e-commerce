@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple E-commerce Store</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to ShopEase</h1>
+        <p>Your one-stop shop for Clothes, Electronics, and Crafts!</p>
+        <nav>
+            <a href="#products">Products</a> |
+            <a href="#cart">Shopping Cart</a> |
+            <a href="#checkout">Checkout</a>
+        </nav>
+        <hr>
+    </header>
+    
+    <section id="products">
+        <h2>Available Products</h2>
+        <ul>
+            <li>
+                <h3>Red T-Shirt</h3>
+                <p>Price: ₹299<br>
+                Soft cotton, available in all sizes.</p>
+            </li>
+            <li>
+                <h3>Bluetooth Headphones</h3>
+                <p>Price: ₹1299<br>
+                Wireless, 10 hours battery life.</p>
+            </li>
+            <li>
+                <h3>Handmade Clay Vase</h3>
+                <p>Price: ₹399<br>
+                Unique design, perfect for home décor.</p>
+            </li>
+        </ul>
+    </section>
+    <hr>
+    
+    <section id="cart">
+        <h2>Shopping Cart</h2>
+        <p>No real cart! For demo: list your selected items below.</p>
+        <ul>
+            <li>Red T-Shirt x 2</li>
+            <li>Bluetooth Headphones x 1</li>
+            <!-- Add or remove items as you "shop" -->
+        </ul>
+        <p>Total: ₹1897</p>
+    </section>
+    <hr>
+    
+    <section id="checkout">
+        <h2>Checkout</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address"><br><br>
+            
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone"><br><br>
+            
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="cod">Cash on Delivery</option>
+                <option value="card">Credit/Debit Card</option>
+                <option value="upi">UPI</option>
+            </select><br><br>
+            
+            <input type="submit" value="Place Order">
+        </form>
+        <p><em>(Form is for demonstration—does not submit or process orders.)</em></p>
+    </section>
+    <hr>
+    
+    <footer>
+        <p>&copy; 2025 ShopEase Online Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
